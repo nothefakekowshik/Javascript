@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "fetch": "^1.1.0",
+    "i": "^0.3.7",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "navigator": "^1.0.1",
+    "node-fetch": "^3.2.10",
+    "prompt": "^1.3.0",
+    "typescript": "^4.6.4"
+  },
+  "name": "programs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "keywords": [],
+  "description": "",
+  "type": "module"
+}

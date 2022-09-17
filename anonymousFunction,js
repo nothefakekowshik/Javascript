@@ -1,0 +1,5 @@
+var greetMe=function(name,age)
+{
+    console.log("hello "+name+" your age is "+age);
+}
+greetMe("kowshik", 22);

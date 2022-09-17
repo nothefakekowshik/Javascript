@@ -1,0 +1,1 @@
+1>3?console.log("A is big"):console.log("B is big");
