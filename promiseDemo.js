@@ -1,8 +1,6 @@
 function helper(a)
 {
-    setTimeout(() => {
-        console.log(a);
-    }, 100);
+    console.log(a);
 }
 function adder(a)
 {
@@ -23,6 +21,25 @@ adder(a)
 .catch(err => console.log(err))
 .then(helper(a));
 
-// adder(a)
-// .catch(err => console.log(err))
-// .then(done => console.log(done));
+console.log('====================================');
+console.log();
+console.log('====================================');
+
+adder(a)
+.catch(err => console.log(err))
+.then(done => console.log(done)) //another extra success msg is coming from here.
+.then(helper(a));
+console.log();
+console.log("----------------------");
+console.log('====================================');
+console.log();
+console.log('====================================');
+
+adder(a)
+.then((msg)=>
+{
+    console.log(msg);
+}).catch((error)=>
+{
+    console.log(error);
+})
