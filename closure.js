@@ -10,9 +10,9 @@ function x()
 function bot()
 {
     var b=900;
+    let a=7;
     function x()
     {
-        var a=7;
         function y()
         {
             console.log(a,b);
@@ -21,6 +21,7 @@ function bot()
         y();
     }
     x();
+    return a;
 }
 
 var z=bot();

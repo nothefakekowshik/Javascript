@@ -11,4 +11,4 @@ await fetch(url)
 })
 //console.log("final");
 
-//see the difference by removing await 
+//see the difference by removing await and print the final log.
