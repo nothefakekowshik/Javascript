@@ -1,1 +1,2 @@
-console.log("Hello world");
+var namee = "kowshik";
+console.log(namee);
