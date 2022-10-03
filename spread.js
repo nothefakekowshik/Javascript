@@ -15,6 +15,9 @@ helper(names[0],names[1],names.slice(2))
 console.log();
 helper(names)
 console.log();
+
+
+//spread anedi only iterables ke, iterable lo unna data ni spread chestundi.
 const parts = ['shoulders', 'knees'];
 const lyrics = ['head', ...parts, 'and', 'toes'];
 const lyrics2 = ['head', parts, 'and', 'toes'];
@@ -37,3 +40,13 @@ function writerr(args)
 }
 writer(1,2,3,4)
 writerr(1,2,3,4)
+
+
+console.log('====================================');
+console.log();
+console.log('====================================');
+
+const vehicles = ['mustang', 'f-150', 'expedition'];
+
+const [car, truck, suv] = [...vehicles]; // this is  the example of spread.
+console.log(car);
