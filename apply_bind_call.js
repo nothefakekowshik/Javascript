@@ -12,12 +12,13 @@ var student ={
     salary : 500000
 }
 
-console.log(parent.getSalary.call(student,"kowshik"));
+console.log(parent.getSalary.call(student)); //call takes args separately.
 
-console.log(parent.getSalary.apply(student,["kowshik"]));
+console.log(parent.getSalary.apply(student,["kowshik"])); //apply takes args as an array.
 
 //bind 
 // bind returns an instance and that should be called again
+
 console.log(parent.getSalary.bind(student,"kowshik"));
 console.log(parent.getSalary.bind(student,"kowshik")());
 
