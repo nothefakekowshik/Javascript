@@ -7,10 +7,12 @@ console.log();
 
 function helper(first ,second , ...rest)
 {
-    console.log(first);
-    console.log(second);
-    console.log(rest);
+    console.log("first is ", first);
+    console.log("second is ",second);
+    console.log("rest are ",rest);
 }
+helper(names[0],names[1],names.slice(2))
+console.log();
 helper(names)
 console.log();
 const parts = ['shoulders', 'knees'];
@@ -27,6 +29,11 @@ console.log('====================================');
 
 function writer(...args)
 {
-    console.log(args[0]);
+    console.log(args);
+}
+function writerr(args)
+{
+    console.log(args);
 }
 writer(1,2,3,4)
+writerr(1,2,3,4)
