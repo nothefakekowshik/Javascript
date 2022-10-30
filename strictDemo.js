@@ -1,4 +1,10 @@
-"use strict";
+// "use strict";
 
-var x={p1:10,p2:20}
-console.log(x);
+// name = "kowshik";
+// console.log(name);
+
+myFunction();
+function myFunction() {
+  y = 3.14;   //error in the strict mode
+}
+
