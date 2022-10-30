@@ -11,3 +11,8 @@ var a=(b,c)=>
     return b+c;
 }
 console.log(a(2,3));
+
+
+var arrowFunctionDefaultReturn = (name) => `hello ${name}`
+
+console.log(arrowFunctionDefaultReturn("kowshik"));
