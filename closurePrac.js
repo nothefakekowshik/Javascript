@@ -2,16 +2,29 @@ function checking()
 {
     function outer()
     {
-        //var outer=10;
         function inner()
         {
             console.log(outer);
+            function anotherInner()
+            {
+                console.log("im in the another inner function");
+            }
+            return anotherInner;
         }
-        let outer=10;
+        var outer=10;
         return inner;
     }
     return outer;
-    
 }
-var mainer = checking()();
-mainer();
+
+// var mainer = checking();
+// var dup = mainer();
+// dup();
+// console.log("=======");
+
+// var mainer = checking()(); // currying
+// mainer();
+// console.log("=======");
+
+// checking()()();
+checking()()()();
