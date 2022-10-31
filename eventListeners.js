@@ -1,6 +1,6 @@
-var buttonObject = document.getElementById("btn")
-buttonObject.addEventListener("click",firstFunction)
-buttonObject.addEventListener("click",secondFunction)
+var clickButtonObject = document.getElementById("btn")
+clickButtonObject.addEventListener("click",firstFunction)
+clickButtonObject.addEventListener("click",secondFunction)
 
 function firstFunction()
 {
