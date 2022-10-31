@@ -23,7 +23,6 @@ function bot()
     x();
     return a;
 }
-
 var z=bot();
 console.log(z);
 // var z=bot();
