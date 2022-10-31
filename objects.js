@@ -9,11 +9,14 @@ const details={
 }
 console.log(details);
 delete details.age;
+details.height = "5 feet 10 inch"
 console.log(details);
-//console.log(details.sayhi);
-//details.sayhi();
+console.log();
+// console.log(details.sayhi);
+// details.sayhi();
 // for(let i in details)
 // {
 //     console.log(i);
 // }
 
+//objects are mutable.
