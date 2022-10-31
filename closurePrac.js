@@ -17,14 +17,17 @@ function checking()
     return outer;
 }
 
-// var mainer = checking();
-// var dup = mainer();
-// dup();
-// console.log("=======");
+var mainer = checking();
+var dup = mainer();
+dup();
+console.log("=======");
 
-// var mainer = checking()(); // currying
-// mainer();
-// console.log("=======");
+var mainer = checking()(); // currying
+mainer();
+console.log("=======");
 
-// checking()()();
+checking()()();
+
+console.log("=======");
+
 checking()()()();
