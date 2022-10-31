@@ -8,10 +8,12 @@ const details={
     }
 }
 console.log(details);
+console.log(details.hasOwnProperty("age"));
 delete details.age;
 details.height = "5 feet 10 inch"
 console.log(details);
 console.log();
+console.log(details.hasOwnProperty("age"));
 // console.log(details.sayhi);
 // details.sayhi();
 // for(let i in details)
