@@ -22,3 +22,17 @@ console.log(details.hasOwnProperty("age"));
 // }
 
 //objects are mutable.
+
+
+function creator(name,age,company)
+{
+    this.name=name;
+    this.age=age;
+    this.company=company;
+}
+var kowshik_object = new creator("kowshik",22,"workfusion")
+console.log(kowshik_object);
+for(var key in kowshik_object)
+{
+    console.log(key,"->",kowshik_object[key]);
+}

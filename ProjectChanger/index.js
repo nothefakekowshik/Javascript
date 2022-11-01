@@ -6,22 +6,17 @@ var yellowObj = document.getElementById("yellow");
 function checker() {
   if (document.body.style.backgroundColor === "red") {
     document.getElementById("result").innerHTML = "<h2>Red</h2>";
-    document.getElementById("main").style.color="black";
-  }
-  else if (document.body.style.backgroundColor === "green") {
+    document.getElementById("main").style.color = "black";
+  } else if (document.body.style.backgroundColor === "green") {
     document.getElementById("result").innerHTML = "<h2>Green</h2>";
-    document.getElementById("main").style.color="black";
-  }
-  else if (document.body.style.backgroundColor === "black") {
+    document.getElementById("main").style.color = "black";
+  } else if (document.body.style.backgroundColor === "black") {
     document.getElementById("result").innerHTML = "<h2>Black</h2>";
-    document.getElementById("main").style.color="red";
-  }
-  else if (document.body.style.backgroundColor === "yellow") {
+    document.getElementById("main").style.color = "red";
+  } else if (document.body.style.backgroundColor === "yellow") {
     document.getElementById("result").innerHTML = "<h2>Yellow</h2>";
-    document.getElementById("main").style.color="black";
-  }
-  else
-  {
+    document.getElementById("main").style.color = "black";
+  } else {
     document.getElementById("result").innerText = "";
   }
 }
@@ -43,4 +38,3 @@ yellowObj.addEventListener("click", function () {
   document.body.style.backgroundColor = "yellow";
   checker();
 });
-
