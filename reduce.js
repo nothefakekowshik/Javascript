@@ -1,5 +1,5 @@
 var numbers=[10,9,-2,0,100]
-ans=0
+var ans =0
 const max_number=numbers
 .reduce( (i,j) =>
 {
@@ -14,3 +14,12 @@ const add=numbers.reduce(
     }
 );
 console.log(add);
+
+
+let summer = (a) =>{
+    return [a].reduce((acc, num)=>{
+        return acc + num
+    })
+}
+var a = [1,2,3,4,5]
+console.log(summer(a));
