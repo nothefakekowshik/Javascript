@@ -8,7 +8,7 @@ function varDemo()
 }
 
 varDemo()
-
+console.log(name);
 console.log("---------------------");
 let letName = "kowshik in the global let";
 console.log(letName);
