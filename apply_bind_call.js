@@ -21,6 +21,5 @@ console.log(parent.getSalary.apply(student,["kowshik"])); //apply takes args as 
 
 console.log(parent.getSalary.bind(student,"kowshik"));
 console.log(parent.getSalary.bind(student,"kowshik")());
-
 var caller = parent.getSalary.bind(student,"kowshik");
 console.log(caller());

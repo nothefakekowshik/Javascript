@@ -20,3 +20,4 @@ function letDemo()
 }
 
 letDemo()
+console.log(letName);

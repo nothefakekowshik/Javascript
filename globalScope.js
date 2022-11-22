@@ -5,3 +5,11 @@ let b;
 }
 console.log(a);
 console.log(b);
+
+
+function fname()
+{
+    name = "kowshik";
+}
+fname();
+console.log(name);

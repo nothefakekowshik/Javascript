@@ -4,12 +4,10 @@ mouseObject.addEventListener("mouseover",mouseOverFunction)
 mouseObject.addEventListener("mouseout",mouseOutFunction)
 mouseObject.addEventListener("mousedown",mouseDownFunction)
 
-
-mouseObject.removeEventListener("mouseover",mouseOverFunction)
-
 function mouseOverFunction()
 {
-    console.log("mouse is hovering");
+    console.log("mouse is hovering and you cant hover again");
+    mouseObject.removeEventListener("mouseover",mouseOverFunction)
 }
 function mouseDownFunction()
 {
