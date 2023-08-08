@@ -12,14 +12,21 @@ var student ={
     salary : 500000
 }
 
-console.log(parent.getSalary.call(student)); //call takes args separately.
+function testing(city ){
+    console.log(`hello boi ${this.name} and city is ${city}`);
+}
+testing.call(student, "vijayawada");
+// console.log(parent.getSalary.call(student)); //call takes args separately. just like normal functions.
+// // you will pass as many as args that we have.
+// // for eg : rootObj.functionName.call(arg1, arg2, arg3);
 
-console.log(parent.getSalary.apply(student,["kowshik"])); //apply takes args as an array.
+// console.log(parent.getSalary.apply(student,["kowshik"])); //apply takes args as an array.
 
-//bind 
-// bind returns an instance and that should be called again
+// //bind 
+// // bind returns an instance and that should be called again
 
-console.log(parent.getSalary.bind(student,"kowshik"));
-console.log(parent.getSalary.bind(student,"kowshik")());
-var caller = parent.getSalary.bind(student,"kowshik");
-console.log(caller());
+// console.log(parent.getSalary.bind(student,"kowshik"));
+// console.log(parent.getSalary.bind(student,"kowshik")());
+// parent.getSalary.bind(student,"kowshik");
+// var caller = parent.getSalary.bind(student,"kowshik");
+// console.log(caller());

@@ -56,18 +56,18 @@ console.log(z);
 // let counter = 0;
 
 // // Function to increment counter
-// function add() 
-// {
-//   let counter = 0; 
-//   counter += 1;
-//   return counter;
-//   console.log(counter);
-// }
+function add() 
+{
+  let counter = 0; 
+  counter += 1;
+  return counter;
+  console.log(counter);
+}
 
-// // Call add() 3 times
-// add();
-// add();
-// add();
+// Call add() 3 times
+add();
+add();
+add();
 
 
 
