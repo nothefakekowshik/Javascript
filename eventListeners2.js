@@ -1,3 +1,4 @@
+
 var mouseObject = document.getElementById("mouseId");
 
 mouseObject.addEventListener("mouseover",mouseOverFunction)
@@ -15,6 +16,7 @@ function mouseDownFunction()
 }
 function mouseOutFunction()
 {
-    console.log("cursor has left the element");
-}
+    console.log("cursor has left the element, now you can hover again.");
+    mouseObject.addEventListener("mouseover", mouseOverFunction)
 
+}
